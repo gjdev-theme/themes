@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.regione h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.citta h2 {
+    font-size: 20px;
+    margin: 0;
+}
