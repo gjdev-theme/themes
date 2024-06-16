@@ -13,19 +13,59 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
+        .miur-bar {
+            background-color: #004080; /* Colore barra in alto */
+            color: #ffffff;
+            padding: 10px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.regione h1 {
-    font-size: 32px;
-    margin: 0;
-}
+        .miur-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
 
-.citta h2 {
-    font-size: 24px;
-    margin: 0;
-}
+        .miur-bar a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #005c99; /* Colore header */
+            color: #ffffff;
+            padding: 10px 0;
+        }
+
+        header .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
